@@ -24,8 +24,8 @@
     // Dispose of any resources that can be recreated.
 }
 
-- (void)differentMethod {
-    NSLog(@"Goodbye World!");
+- (void)method {
+    NSLog(@"Hello World");
 }
 
 @end
