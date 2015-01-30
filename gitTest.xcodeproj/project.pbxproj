@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		8BA431B41A7C1ED900ED7286 /* MyClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BA431B31A7C1ED900ED7286 /* MyClass.m */; };
+		8BA431B71A7C1F3200ED7286 /* OtherClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BA431B61A7C1F3200ED7286 /* OtherClass.m */; };
 		8BEB7D871A76AEC800489F2A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BEB7D861A76AEC800489F2A /* main.m */; };
 		8BEB7D8A1A76AEC800489F2A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BEB7D891A76AEC800489F2A /* AppDelegate.m */; };
 		8BEB7D8D1A76AEC800489F2A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BEB7D8C1A76AEC800489F2A /* ViewController.m */; };
@@ -30,6 +31,8 @@
 /* Begin PBXFileReference section */
 		8BA431B21A7C1ED900ED7286 /* MyClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyClass.h; sourceTree = "<group>"; };
 		8BA431B31A7C1ED900ED7286 /* MyClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyClass.m; sourceTree = "<group>"; };
+		8BA431B51A7C1F3200ED7286 /* OtherClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OtherClass.h; sourceTree = "<group>"; };
+		8BA431B61A7C1F3200ED7286 /* OtherClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OtherClass.m; sourceTree = "<group>"; };
 		8BEB7D811A76AEC800489F2A /* gitTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = gitTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BEB7D851A76AEC800489F2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8BEB7D861A76AEC800489F2A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -94,6 +97,8 @@
 				8BEB7D841A76AEC800489F2A /* Supporting Files */,
 				8BA431B21A7C1ED900ED7286 /* MyClass.h */,
 				8BA431B31A7C1ED900ED7286 /* MyClass.m */,
+				8BA431B51A7C1F3200ED7286 /* OtherClass.h */,
+				8BA431B61A7C1F3200ED7286 /* OtherClass.m */,
 			);
 			path = gitTest;
 			sourceTree = "<group>";
@@ -228,6 +233,7 @@
 				8BEB7D8D1A76AEC800489F2A /* ViewController.m in Sources */,
 				8BEB7D8A1A76AEC800489F2A /* AppDelegate.m in Sources */,
 				8BEB7D871A76AEC800489F2A /* main.m in Sources */,
+				8BA431B71A7C1F3200ED7286 /* OtherClass.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
