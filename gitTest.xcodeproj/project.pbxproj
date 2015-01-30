@@ -66,6 +66,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8BA431BA1A7C203600ED7286 /* Folder1 */ = {
+			isa = PBXGroup;
+			children = (
+				8BA431B21A7C1ED900ED7286 /* MyClass.h */,
+				8BA431B31A7C1ED900ED7286 /* MyClass.m */,
+			);
+			name = Folder1;
+			sourceTree = "<group>";
+		};
+		8BA431BB1A7C203D00ED7286 /* Folder2 */ = {
+			isa = PBXGroup;
+			children = (
+				8BA431B51A7C1F3200ED7286 /* OtherClass.h */,
+				8BA431B61A7C1F3200ED7286 /* OtherClass.m */,
+			);
+			name = Folder2;
+			sourceTree = "<group>";
+		};
 		8BEB7D781A76AEC700489F2A = {
 			isa = PBXGroup;
 			children = (
@@ -95,10 +113,8 @@
 				8BEB7D911A76AEC800489F2A /* Images.xcassets */,
 				8BEB7D931A76AEC800489F2A /* LaunchScreen.xib */,
 				8BEB7D841A76AEC800489F2A /* Supporting Files */,
-				8BA431B21A7C1ED900ED7286 /* MyClass.h */,
-				8BA431B31A7C1ED900ED7286 /* MyClass.m */,
-				8BA431B51A7C1F3200ED7286 /* OtherClass.h */,
-				8BA431B61A7C1F3200ED7286 /* OtherClass.m */,
+				8BA431BA1A7C203600ED7286 /* Folder1 */,
+				8BA431BB1A7C203D00ED7286 /* Folder2 */,
 			);
 			path = gitTest;
 			sourceTree = "<group>";
