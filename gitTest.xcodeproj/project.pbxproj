@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8BA431B41A7C1ED900ED7286 /* MyClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BA431B31A7C1ED900ED7286 /* MyClass.m */; };
 		8BEB7D871A76AEC800489F2A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BEB7D861A76AEC800489F2A /* main.m */; };
 		8BEB7D8A1A76AEC800489F2A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BEB7D891A76AEC800489F2A /* AppDelegate.m */; };
 		8BEB7D8D1A76AEC800489F2A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BEB7D8C1A76AEC800489F2A /* ViewController.m */; };
@@ -27,6 +28,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8BA431B21A7C1ED900ED7286 /* MyClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyClass.h; sourceTree = "<group>"; };
+		8BA431B31A7C1ED900ED7286 /* MyClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyClass.m; sourceTree = "<group>"; };
 		8BEB7D811A76AEC800489F2A /* gitTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = gitTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BEB7D851A76AEC800489F2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8BEB7D861A76AEC800489F2A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -89,6 +92,8 @@
 				8BEB7D911A76AEC800489F2A /* Images.xcassets */,
 				8BEB7D931A76AEC800489F2A /* LaunchScreen.xib */,
 				8BEB7D841A76AEC800489F2A /* Supporting Files */,
+				8BA431B21A7C1ED900ED7286 /* MyClass.h */,
+				8BA431B31A7C1ED900ED7286 /* MyClass.m */,
 			);
 			path = gitTest;
 			sourceTree = "<group>";
@@ -219,6 +224,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8BA431B41A7C1ED900ED7286 /* MyClass.m in Sources */,
 				8BEB7D8D1A76AEC800489F2A /* ViewController.m in Sources */,
 				8BEB7D8A1A76AEC800489F2A /* AppDelegate.m in Sources */,
 				8BEB7D871A76AEC800489F2A /* main.m in Sources */,
@@ -414,6 +420,7 @@
 				8BEB7DA61A76AEC800489F2A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8BEB7DA71A76AEC800489F2A /* Build configuration list for PBXNativeTarget "gitTestTests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +429,7 @@
 				8BEB7DA91A76AEC800489F2A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
